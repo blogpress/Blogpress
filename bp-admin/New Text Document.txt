@@ -1,0 +1,58 @@
+<div class="plugin-card plugin-card-classic-editor">
+						<div class="plugin-card-top">
+				<div class="name column-name">
+					<h3>
+						<a href="https://bhojpuria.in/wp-admin/plugin-install.php?tab=plugin-information&#038;plugin=classic-editor&#038;TB_iframe=true&#038;width=600&#038;height=550" class="thickbox open-plugin-details-modal">
+						Classic Editor						<img src="https://ps.w.org/classic-editor/assets/icon-256x256.png?rev=1998671" class="plugin-icon" alt="" />
+						</a>
+					</h3>
+				</div>
+				<div class="action-links">
+					<ul class="plugin-action-buttons"><li><a href="https://bhojpuria.in/wp-admin/plugins.php?_wpnonce=82d45a79bb&#038;action=activate&#038;plugin=classic-editor/classic-editor.php" class="button activate-now" aria-label="Activate Classic Editor">Activate</a></li><li><a href="https://bhojpuria.in/wp-admin/plugin-install.php?tab=plugin-information&#038;plugin=classic-editor&#038;TB_iframe=true&#038;width=600&#038;height=550" class="thickbox open-plugin-details-modal" aria-label="More information about Classic Editor 1.6.2" data-title="Classic Editor 1.6.2">More Details</a></li></ul>				</div>
+				<div class="desc column-description">
+					<p>Enables the previous &quot;classic&quot; editor and the old-style Edit Post screen with TinyMCE, Meta Boxes, etc. Supports all plugins that extend this screen.</p>
+					<p class="authors"> <cite>By <a href="https://github.com/WordPress/classic-editor/">WordPress Contributors</a></cite></p>
+				</div>
+			</div>
+			<div class="plugin-card-bottom">
+				<div class="vers column-rating">
+					<div class="star-rating"><span class="screen-reader-text">5.0 rating based on 1,017 ratings</span><div class="star star-full" aria-hidden="true"></div><div class="star star-full" aria-hidden="true"></div><div class="star star-full" aria-hidden="true"></div><div class="star star-full" aria-hidden="true"></div><div class="star star-full" aria-hidden="true"></div></div>					<span class="num-ratings" aria-hidden="true">(1,017)</span>
+				</div>
+				<div class="column-updated">
+					<strong>Last Updated:</strong>
+					3 months ago				</div>
+				<div class="column-downloaded">
+					5+ Million Active Installations				</div>
+				<div class="column-compatibility">
+					<span class="compatibility-compatible"><strong>Compatible</strong> with your version of WordPress</span>				</div>
+			</div>
+		</div>
+					<div class="plugin-card plugin-card-akismet">
+						<div class="plugin-card-top">
+				<div class="name column-name">
+					<h3>
+						<a href="https://bhojpuria.in/wp-admin/plugin-install.php?tab=plugin-information&#038;plugin=akismet&#038;TB_iframe=true&#038;width=600&#038;height=550" class="thickbox open-plugin-details-modal">
+						Akismet Spam Protection						<img src="https://ps.w.org/akismet/assets/icon-256x256.png?rev=969272" class="plugin-icon" alt="" />
+						</a>
+					</h3>
+				</div>
+				<div class="action-links">
+					<ul class="plugin-action-buttons"><li><a class="install-now button" data-slug="akismet" href="https://bhojpuria.in/wp-admin/update.php?action=install-plugin&#038;plugin=akismet&#038;_wpnonce=0e8374a7c2" aria-label="Install Akismet Spam Protection 4.2.1 now" data-name="Akismet Spam Protection 4.2.1">Install Now</a></li><li><a href="https://bhojpuria.in/wp-admin/plugin-install.php?tab=plugin-information&#038;plugin=akismet&#038;TB_iframe=true&#038;width=600&#038;height=550" class="thickbox open-plugin-details-modal" aria-label="More information about Akismet Spam Protection 4.2.1" data-title="Akismet Spam Protection 4.2.1">More Details</a></li></ul>				</div>
+				<div class="desc column-description">
+					<p>The best anti-spam protection to block spam comments and spam in a contact form. The&hellip;</p>
+					<p class="authors"> <cite>By <a href="https://automattic.com/wordpress-plugins/">Automattic</a></cite></p>
+				</div>
+			</div>
+			<div class="plugin-card-bottom">
+				<div class="vers column-rating">
+					<div class="star-rating"><span class="screen-reader-text">4.5 rating based on 921 ratings</span><div class="star star-full" aria-hidden="true"></div><div class="star star-full" aria-hidden="true"></div><div class="star star-full" aria-hidden="true"></div><div class="star star-full" aria-hidden="true"></div><div class="star star-half" aria-hidden="true"></div></div>					<span class="num-ratings" aria-hidden="true">(921)</span>
+				</div>
+				<div class="column-updated">
+					<strong>Last Updated:</strong>
+					2 weeks ago				</div>
+				<div class="column-downloaded">
+					5+ Million Active Installations				</div>
+				<div class="column-compatibility">
+					<span class="compatibility-compatible"><strong>Compatible</strong> with your version of WordPress</span>				</div>
+			</div>
+		</div>

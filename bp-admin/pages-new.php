@@ -1,0 +1,97 @@
+
+<div class="content-wrapper">
+<!-- Content Header (Page header) -->
+    <section class="content-header">
+      <h1>
+       <?php echo $page;?>       <small>
+        <a href="<?php echo ADMIN_URL . '/pages.php?load=all' ?>" class="btn btn-primary">
+<i class="fa fa-plus-circle"></i> <?php echo $pages_all;?></a>
+        </small>
+      </h1>
+      <ol class="breadcrumb">
+        <li><a href="<?php echo ADMIN_URL . '/dashboard.php' ?>"><i class="fa fa-dashboard"></i> <?php echo $home;?></a></li>
+        <li><a href="<?php echo ADMIN_URL . '/pages.php?load=all' ?>"><?php echo $pages;?></a></li>
+        <li class="active">Edit</li>
+      </ol>
+    </section>
+
+
+
+
+                <!-- Main content -->
+    <section class="content">
+      <div class="row">
+           <div class="col-xs-12">
+
+                    <?php include(ROOT_PATH . '/bp-includes/helpers/formErrors.php'); ?>
+
+                    <div class="box box-primary">
+               <div class="box-header with-border">
+                <h3 class="box-title">
+     Edit Post
+              </h3>
+               </div>
+
+                    <form action="pages.php?load=new" method="post" enctype="multipart/form-data">
+                       <div class="box-body">
+<div class="form-group">
+                            <label>Title</label>
+                            <input type="text" name="title" value="<?php echo $title ?>""   class="form-control">
+                        </div>
+                        <div>
+                            <label>Body</label>
+                            <textarea name="body" id="body"><?php echo $body ?></textarea>
+                        </div>
+                        <div>
+                            <label>Image</label>
+                            <input type="file" name="image" class="text-input" style="padding:15px;border:1px solid #ddd;width:100%;">
+                        </div>
+                        <div>
+                            <label>Topic</label>
+                            <select name="topic_id" class="text-input"  style="padding:15px;border:1px solid #ddd;width:100%;">
+                                <option value=""></option>
+                                <?php foreach ($topics as $key => $topic): ?>
+                                    <?php if (!empty($topic_id) && $topic_id == $topic['id'] ): ?>
+                                        <option selected value="<?php echo $topic['id'] ?>"><?php echo $topic['name'] ?></option>
+                                    <?php else: ?>
+                                        <option value="<?php echo $topic['id'] ?>"><?php echo $topic['name'] ?></option>
+                                    <?php endif; ?>
+
+                                <?php endforeach; ?>
+
+                            </select>
+                        </div>
+                        <div>
+                            <?php if (empty($published)): ?>
+                                <label>
+                                    <input type="checkbox" name="published">
+                                    Publish
+                                </label>
+                            <?php else: ?>
+                                <label>
+                                    <input type="checkbox" name="published" checked>
+                                    Publish
+                                </label>
+                            <?php endif; ?>
+                           
+
+                        </div>
+                        <div>
+                            <button type="submit" name="add-post" class="btn btn-big">Add Post</button>
+                        </div>
+                    </form>
+
+                </div>
+
+            </div>
+            <!-- // Admin Content -->
+
+        </div>
+       
+
+  <script>
+  new FroalaEditor('textarea');
+</script>  
+      </div>
+             </div>
+       
